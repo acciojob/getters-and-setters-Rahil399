@@ -8,6 +8,10 @@ class Person {
     return this._name; // Getter for name
   }
 
+	 get age() {
+    return this._age; // ✅ Add this
+  }
+
   set age(newAge) {
     this._age = newAge; // Setter for age
   }
